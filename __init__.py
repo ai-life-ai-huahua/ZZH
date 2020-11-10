@@ -5,8 +5,8 @@
 
 __description__ = "a objection plugin to fast search and dump dex on memory."
 
-from objection.state.connection import state_connection
-from objection.utils.plugin import Plugin
+from IPython.state.connection import state_connection
+from IPython.utils.plugin import Plugin
 
 from .main import *
 
